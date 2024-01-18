@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppin' , sans-serif;
+}
+
+body{
+    font-family: 'open Sans', sans-serif;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    /*background: url(../images/half.jpg)no-repeat;
+    background-size: cover;  */
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: greenyellow;
+    border-radius: 100px;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition:all .5s;
+}
+
+li a:hover:after{
+    width: 100%;
+}
+
+.signup-btnn{
+    background: #c4c4f7;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.details{
+    max-height: fit-content;
+    display: flex;
+    height: cal(100vh - 100px);
+    justify-content: center;
+    align-items: center;
+}
+
+.coverimage{
+    border: 9x solid;
+    width: 380px;
+    height: 350px;
+    border-radius: 160px;
+    margin-top: 15px;
+}
+
+.left-content{
+    width: 60%;
+}
+
+.details h1{
+    font-size: 44px;
+    color: #133b4f;
+    text-transform: uppercase;
+}
+
+.details p{
+    font-size: 20px;
+    color: #333;
+    line-height: 27.5px;
+    margin: 30px 0;
+}
+
+
+.cvbutton{
+    padding: 15px 30px;
+    color:rgb(248, 246, 242);
+    background-color: #050505;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+ .cvbutton:hover{
+    color: #fff;
+    background: #C4C4F7;
+    transition:all .5s;
+}
